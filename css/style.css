@@ -100,8 +100,53 @@ nav.menu ul{
     padding-bottom: 30px;
 }
 
+.main-page-content h3{
+    font-family: 'Raleway', sans-serif;
+    font-weight: 800;
+    font-size: 24px;
+    padding-bottom: 20px;
+}
+
 .featured-image img{
     max-width: 360px;
+}
+
+.projects{
+    padding: 0 0 60px 0;
+}
+
+.projects .project{
+    padding: 0 0 30px 40px;
+}
+
+.projects .project h4{
+    position: relative;
+    padding: 10px 0;
+}
+
+.projects .project h4::before{
+    content: url('../img/project-triangle.svg');
+    position: absolute;
+    left: -20px;
+    top: 12px;
+}
+
+.projects .project p{
+    color: #454545;
+    padding-bottom: 20px;
+}
+
+.projects .project a{
+    background-color: black;
+    color: white;
+    padding: 10px 30px;
+    border-radius: 5px;
+    font-size: 14px;
+    margin-right: 10px;
+}
+
+.projects .project a:hover{
+    background-color: rgb(39, 39, 39);
 }
 
 footer{
