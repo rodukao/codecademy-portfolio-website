@@ -149,6 +149,17 @@ nav.menu ul{
     background-color: rgb(39, 39, 39);
 }
 
+.skills{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 10px;
+}
+
+.skills img{
+    max-width: 40px;
+}
+
 footer{
     max-width: 1100px;
     margin: 0 auto;
