@@ -1,0 +1,133 @@
+@import url('https://fonts.googleapis.com/css2?family=ABeeZee:ital@1&family=Open+Sans:wght@400;700&family=Raleway:wght@500;800&display=swap');
+
+/*
+font-family: 'ABeeZee', sans-serif;
+font-family: 'Open Sans', sans-serif;
+font-family: 'Raleway', sans-serif;
+*/
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+}
+
+a{
+    color: inherit;
+    text-decoration: none;
+}
+
+p a{
+    color:chocolate;
+}
+
+p a:hover{
+    color:rgb(255, 117, 19);
+}
+
+header{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    max-width: 1100px;
+    justify-content: space-between;
+    align-items: center;
+    margin: 50px auto;
+}
+
+.logo h2{
+    font-family: 'ABeeZee', sans-serif;
+    font-size: 36px;
+}
+
+.logo span, nav.menu{
+    font-family: 'Open Sans', sans-serif;
+}
+
+.logo span{
+    font-size: 14px;
+    color: #868686;
+}
+
+nav.menu ul{
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+}
+
+.main-content{
+    width: 100%;
+    max-width: 1100px;
+    margin: 0 auto;
+    position: relative;
+}
+
+.page-title{
+    font-family: 'Raleway', sans-serif;
+    font-weight: 800;
+    font-size: 36px;
+    margin: 30px 0;
+}
+
+.language{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    position: absolute;
+    left: -80px;
+}
+
+.language img{
+    max-width: 40px;
+}
+
+.main-page-content{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 80px;
+}
+
+.main-page-content .text{
+    width: 600px;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    line-height: 28.8px;
+}
+
+.main-page-content .text p{
+    padding-bottom: 30px;
+}
+
+.featured-image img{
+    max-width: 360px;
+}
+
+footer{
+    max-width: 1100px;
+    margin: 0 auto;
+}
+
+footer{
+    font-family: 'Raleway', sans-serif;
+    padding-bottom: 60px;
+}
+
+footer h2{
+    font-size: 30px;
+    font-weight: 800;
+}
+
+footer span{
+    font-size: 14px;
+    color: #747474;
+}
+
+footer ul{
+    margin-top: 20px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 10px;
+}
