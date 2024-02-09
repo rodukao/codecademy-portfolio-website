@@ -29,21 +29,21 @@ const menu = {
 const indexPageContent = {
     english: {
         pageTitle: 'About me',
-        pageContent: `<p>Hey there! I'm Rodrigo, a Brazilian creative soul with a passion for blending art and technology. I started my academic path at Universidade Federal de Juiz de Fora, focusing on Arts and Design. My curiosity for learning didn't end there, though. I'm now expanding my knowledge in Systems Analysis and Development at Estácio de Sá and enhancing my tech expertise through a Full-Stack Developer course at Codecademy.</p>
+        pageContent: `<p>Hello! My name is Rodrigo Duque. Welcome to my Codecademy Portfolio site! On this site, I've tried to include everything I've learned during my Full Stack Developer course. This is my second project, and according to our task, I was supposed to create a portfolio site to present the projects I've created on the platform! The site was supposed to be a static site with at least one interaction in JavaScript.</p>
 
-        <p>During the day, I work as a Web Designer at <a target="_blank" href="https://www.museudeartemurilomendes.com.br">Museu de Arte Murilo Mendes</a>, where I'm responsible for creating websites that are both engaging and easy to use. But after work, I switch gears. I spend quality time with my son, often playing video games or enjoying the great outdoors together. I'm also known to spend hours on my computer, working on various personal projects that spark my creativity.</p>
+        <p>Well then! I decided to create a site that is visually simple but a bit more complex than it seems. If you look to the left, we have 2 small flags. Each of them will trigger a series of events that will translate the site either to English (USA flag) or Portuguese (Brazil flag).</p>
 
-        <p>That's a quick glimpse into who I am: a mix of an artist, a tech enthusiast, and a devoted dad. Here's to embracing the fun, the inventive, and the unplanned moments in life!</p>`,
+        <p>To do this, I created objects containing the text values I wanted to swap. It was a bit of work, but it served to test what I learned using various JavaScript tools. I hope you like it! Be sure to check out the other projects in the PROJECTS tab, and if you want to get in touch, my social networks are available in the CONTACT tab! Thank you for visiting!</p>`,
         footerTitle: `Some skills that I learned so far!`,
         footerDescription: `(This is a work in progress list)`
     },
     portuguese: {
         pageTitle: 'Sobre',
-        pageContent: `<p>Olá! Eu sou Rodrigo, uma alma criativa brasileira com paixão por combinar arte e tecnologia. Comecei meu caminho acadêmico na Universidade Federal de Juiz de Fora, focando em Artes e Design. Minha curiosidade por aprender não parou por aí, no entanto. Agora estou expandindo meu conhecimento em Análise e Desenvolvimento de Sistemas na Estácio de Sá e aprimorando minha expertise tecnológica através de um curso de Desenvolvedor Full-Stack na Codecademy.</p>
+        pageContent: `<p>Olá! Meu nome é Rodrigo Duque. Seja muito bem vindo ao meu site de Portfólio do Codecademy! Nesse site eu procurei colocar tudo que tenho aprendido durante meu curso de Full Stack Developer. Esse é meu segundo projeto e de acordo com nossa tarefa eu deveria criar um site portfólio para apresentar os projetos que criei na plataforma! O site deveria ser um site estático com pelo menos uma interação em Javascript.</p>
 
-        <p>Durante o dia, trabalho como Web Designer no <a target="_blank" href="https://www.museudeartemurilomendes.com.br">Museu de Arte Murilo Mendes</a>, onde sou responsável por criar sites que são tanto envolventes quanto fáceis de usar. Mas depois do trabalho, mudo de marcha. Passo momentos de qualidade com meu filho, muitas vezes jogando videogames ou aproveitando o ar livre juntos. Também sou conhecido por passar horas no meu computador, trabalhando em vários projetos pessoais que despertam minha criatividade.</p>
+        <p>Pois bem! Resolvi então criar um site visualmente simples mas um pouco mais complexo do que parece. Se observarem a esquerda nós temos 2 bandeirinhas. Cada uma delas vai ativar uma série de eventos que vai traduzir o site ou para o inglês (bandeira EUA) ou português (bandeira do Brasil).</p>
 
-        <p>Esse é um vislumbre rápido de quem eu sou: uma mistura de artista, entusiasta da tecnologia e pai dedicado. Um brinde aos momentos divertidos, inventivos e não planejados da vida!</p>`,
+        <p>Para fazer isso eu criei objetos contendo os valores de texto que gostaria de trocar. Deu um pouco de trabalho mas serviu para eu testar o que aprendi utilizando várias ferramentas do Javascript. Espero que gostem! Não deixem de olhar os outros projetos na aba PROJETOS e caso queiram entrar em contato minhas redes sociais estão disponíveis na aba CONTATO! Obrigado pela visita!</p>`,
         footerTitle: `Algumas habilidades que aprendi até o momento`,
         footerDescription: `(Essa é uma lista em atualização)`
     }
@@ -52,35 +52,35 @@ const indexPageContent = {
 const projectsPageContent = {
     english: {
         pageTitle: 'Projects',
-        pageContent: `<p>Welcome to my Projects page! Here you'll find a collection of the work I've created, inspired by the challenges and courses at Codecademy. Each project represents a step in my journey to master full-stack development, showcasing the skills and creativity I've honed along the way. From front-end designs to complex back-end systems, these projects reflect my passion for blending the art of design with the science of programming. Dive in and explore the fruits of my learning and experimentation!</p>
+        pageContent: `<p>Welcome to my Projects page! Here you will find a collection of the work I have created, inspired by the challenges and courses at Codecademy. Each project represents a step in my journey to master full-stack development, showcasing the skills and creativity I have honed along the way. Each one has a link to the live project and a link to the GitHub repository for you to see how it was done! I hope you enjoy it!</p>
         <h3>List of projects</h3>
         <div class="projects">
             <div class="project">
                 <h4>Random sentence generator</h4>
                 <p>A simple project that group some semi random words to create a sentence.</p>
-                <a href="#">Visit project github page</a><a href="#">Live view</a>
+                <a target="_blank" href="https://github.com/rodukao/random-sentence-generator">Visit project github page</a><a target="_blank" href="https://rodukao.github.io/random-sentence-generator/">Live view</a>
             </div>
             <div class="project">
                 <h4>Portfolio website</h4>
                 <p>This very own website that I created for the portfolio website project.</p>
-                <a href="#">Visit project github page</a><a href="#">Live view</a>
+                <a target="_blank" href="https://github.com/rodukao/codecademy-portfolio-website">Visit project github page</a><a target="_blank" href="https://rodukao.github.io/codecademy-portfolio-website/">Live view</a>
             </div>
         </div>`
     },
     portuguese: {
         pageTitle: 'Projetos',
-        pageContent: `<p>Bem-vindo à minha página de Projetos! Aqui você encontrará uma coleção dos trabalhos que criei, inspirados pelos desafios e cursos da Codecademy. Cada projeto representa um passo na minha jornada para dominar o desenvolvimento full-stack, mostrando as habilidades e criatividade que aprimorei ao longo do caminho. Desde designs de front-end até sistemas complexos de back-end, esses projetos refletem minha paixão por combinar a arte do design com a ciência da programação. Mergulhe e explore os frutos do meu aprendizado e experimentação!</p>
+        pageContent: `<p>Bem-vindo à minha página de Projetos! Aqui você encontrará uma coleção dos trabalhos que criei, inspirados pelos desafios e cursos da Codecademy. Cada projeto representa um passo na minha jornada para dominar o desenvolvimento full-stack, mostrando as habilidades e criatividade que aprimorei ao longo do caminho. Cada um deles possui um link para o projeto em funcionamento e um link para o repositório do GitHub para vocês verem como foi feito! Espero que gostem!</p>
         <h3>Lista de projetos</h3>
         <div class="projects">
             <div class="project">
                 <h4>Random sentence generator</h4>
                 <p>Um projetinho simples que agrupa um conjunto de palavras para formar uma frase aleatória</p>
-                <a href="#">Visite a página do projeto no GitHub</a><a href="#">Live view</a>
+                <a target="_blank" href="https://github.com/rodukao/random-sentence-generator">Visite a página do projeto no GitHub</a><a target="_blank" href="https://rodukao.github.io/random-sentence-generator/">Live view</a>
             </div>
             <div class="project">
                 <h4>Portfolio website</h4>
                 <p>Esse mesmo site que vocês estão navegando! Um site simples mas exageradamente complexo.</p>
-                <a href="#">Visit project github page</a><a href="#">Live view</a>
+                <a target="_blank" href="https://github.com/rodukao/codecademy-portfolio-website">Visit project github page</a><a target="_blank" href="https://rodukao.github.io/codecademy-portfolio-website/">Live view</a>
             </div>
         </div>`
     }
