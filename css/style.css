@@ -291,4 +291,10 @@ footer ul{
         position: relative;
         left: 0;
     }
+
+    .projects .project a{
+        display: block;
+        margin-bottom: 5px;
+        text-align: center;
+    }
   }
