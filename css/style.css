@@ -9,8 +9,11 @@ font-family: 'Raleway', sans-serif;
 *{
     margin: 0;
     padding: 0;
-    box-sizing: border-box;
     list-style: none;
+}
+
+body{
+    padding: 0 30px;
 }
 
 a{
@@ -24,6 +27,10 @@ p a{
 
 p a:hover{
     color:rgb(255, 117, 19);
+}
+
+#usa-flag, #brasilian-flag{
+    cursor: pointer;
 }
 
 header{
@@ -90,7 +97,7 @@ nav.menu ul{
 }
 
 .main-page-content .text{
-    width: 600px;
+    width: 60%;
     font-family: 'Open Sans', sans-serif;
     font-size: 16px;
     line-height: 28.8px;
@@ -204,3 +211,84 @@ footer ul{
     align-items: center;
     gap: 10px;
 }
+
+@media screen and (max-width: 768px) {
+    body{
+        padding: 0 20px;
+    }
+
+    header{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .logo{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .logo h2{
+        text-align: center;
+    }
+
+    nav{
+        margin-top: 20px;
+    }
+
+    .page-title{
+        text-align: center;
+    }
+
+    .main-page-content{
+        flex-direction: column;
+        gap: 0;
+    }
+
+    .main-page-content .text{
+        width: 100%;
+    }
+
+    .featured-image{
+        text-align: center;
+    }
+
+    .featured-image img{
+        max-width: 100%;
+    }
+
+    footer h2{
+        margin-top: 30px;
+        text-align: center;
+    }
+
+    footer span{
+        display: inline-block;
+        width: 100%;
+        text-align: center;
+    }
+
+    footer ul{
+        justify-content: center;
+    }
+
+    .skills{
+        justify-content: center;
+        margin-bottom: 20px;
+    }
+
+    .social a{
+        justify-content: center;
+    }
+
+    .language{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        margin-bottom: 20px;
+        gap: 10px;
+        position: relative;
+        left: 0;
+    }
+  }

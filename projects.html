@@ -10,25 +10,25 @@
     <header>
         <section class="logo">
             <h2>Rodukao Codecademy Portfolio</h2>
-            <span>What I've learned so far</span>
+            <span id="description">What I've learned so far</span>
         </section>
         <nav class="menu">
-            <ul>
-                <li><a href="index.html">About me</a></li>
-                <li><a href="projects.html"><strong>Projects</strong></a></li>
-                <li><a href="skills.html">Skills</a></li>
-                <li><a href="contact.html">Contact</a></li>
+            <ul id="menu-list">
+                <li><a id="index" href="index.html">About me</a></li>
+                <li><a id="projects" href="projects.html">Projects</a></li>
+                <li><a id="skills" href="skills.html">Skills</a></li>
+                <li><a id="contact" href="contact.html">Contact</a></li>
             </ul>
         </nav>
     </header>
     <main class="main-content">
-        <h1 class="page-title">Projects</h1>
+        <h1 class="page-title" id="page-title">Projects</h1>
         <nav class="language">
-            <a><img src="img/usa-flag.svg" alt="usa-flag" title="Text in english"></a>
-            <a><img src="img/bandeira-brasileira.svg" alt="bandeira-brasileira" title="Texto em português"></a>
+            <a id="usa-flag"><img src="img/usa-flag.svg" alt="usa-flag" title="Text in english"></a>
+            <a id="brasilian-flag"><img src="img/bandeira-brasileira.svg" alt="bandeira-brasileira" title="Texto em português"></a>
         </nav>
         <section class="main-page-content">
-            <div class="text">
+            <div class="text" id="page-text">
                 <p>Welcome to my Projects page! Here you'll find a collection of the work I've created, inspired by the challenges and courses at Codecademy. Each project represents a step in my journey to master full-stack development, showcasing the skills and creativity I've honed along the way. From front-end designs to complex back-end systems, these projects reflect my passion for blending the art of design with the science of programming. Dive in and explore the fruits of my learning and experimentation!</p>
                 <h3>List of projects</h3>
                 <div class="projects">
@@ -46,5 +46,6 @@
             </div>
         </section>
     </main>
+    <script src="js/main.js"></script>
 </body>
 </html>
