@@ -80,7 +80,7 @@ const projectsPageContent = {
             <div class="project">
                 <h4>Portfolio website</h4>
                 <p>Esse mesmo site que vocês estão navegando! Um site simples mas exageradamente complexo.</p>
-                <a target="_blank" href="https://github.com/rodukao/codecademy-portfolio-website">Visit project github page</a><a target="_blank" href="https://rodukao.github.io/codecademy-portfolio-website/">Live view</a>
+                <a target="_blank" href="https://github.com/rodukao/codecademy-portfolio-website">Visite a página do projeto no GitHub</a><a target="_blank" href="https://rodukao.github.io/codecademy-portfolio-website/">Live view</a>
             </div>
         </div>`
     }
