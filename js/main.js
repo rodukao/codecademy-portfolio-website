@@ -160,7 +160,8 @@ const populatePageContent = (page, language) => {
             break;
 
         default:
-            return;
+            populateIndexPage(language);
+            break;
     }
 }
 
